@@ -16,6 +16,8 @@
       <td><%= user.last_name %></td>
       <td><%= user.employee_Id %></td>
       <td><%= user.employee_type %></td>
+      <td><%= link_to 'Show', user_path(user) %></td>
+      <td><%= link_to 'Edit', edit_user_path(user) %></td>
     </tr>
   <% end %>
 </table>
