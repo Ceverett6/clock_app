@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  employee_Id: 1
+  time_in: 2015-03-13 21:42:28
+  time_out: 2015-03-13 21:42:28
+
+two:
+  employee_Id: 1
+  time_in: 2015-03-13 21:42:28
+  time_out: 2015-03-13 21:42:28
