@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :timestamps
+  
   validates :first_name, presence: true,
                     length: { minimum: 1 }
                     
